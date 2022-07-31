@@ -20,3 +20,8 @@ $(".cookies-info-on").click(function(){
     document.getElementById("CybotCookiebotDialog").setAttribute("style","opacity:0;");
 })
 
+function changeStyle(){
+    var element = document.getElementById("CybotCookiebotDialogt");
+    element.style.opacity = "1";
+    element.style.display = "flex";
+}
