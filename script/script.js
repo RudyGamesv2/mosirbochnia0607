@@ -15,12 +15,5 @@ function alertSoon(){
 const cookies = document.querySelector('.CybotMultilevel.CybotCloseButtonEnabled.CybotCookiebotDialogActive');
 
 $(".cookies-info-on").click(function(){
-    // $("#CookiebotWidget").toggleClass("CookiebotWidget-open")
-    $(".CybotMultilevel .CybotCloseButtonEnabled").toggleClass("CybotMultilevel CybotCloseButtonEnabled CybotCookiebotDialogActive")
+    $("#CookiebotWidget").toggleClass("CookiebotWidget-open")
 })
-
-function changeStyle(){
-    var element = document.getElementById("CybotCookiebotDialogt");
-    element.style.opacity = "1";
-    element.style.display = "flex";
-}
