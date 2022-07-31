@@ -17,6 +17,6 @@ const cookies = document.querySelector('.CybotMultilevel.CybotCloseButtonEnabled
 $(".cookies-info-on").click(function(){
     $("#CookiebotWidget").toggleClass("CookiebotWidget-open")
     $(".CybotMultilevel .CybotCloseButtonEnabled").toggleClass("CybotMultilevel CybotCloseButtonEnabled CybotCookiebotDialogActive")
-    cookies.style.opacity = '1';
-    cookies.style.display = 'flex';
+    document.getElementById("CybotCookiebotDialog").setAttribute("style","opacity:0;");
 })
+
