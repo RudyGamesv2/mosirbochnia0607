@@ -87,8 +87,8 @@ a{
     opacity: 0;
     visibility: hidden;
 
-    animation: fade 6s linear forwards;
-    animation-delay: 20s;
+    animation: fade 4s linear forwards;
+    animation-delay: 30s;
     z-index: 300;
     left: 0px;
     bottom: 50%;
@@ -117,8 +117,8 @@ a{
     background-image: linear-gradient(to right, #95bfe5, #2b4f82);
     /* background-image: linear-gradient(to right, #274b7f, #98c3e8); */
     border-radius: 4px;
-    animation: progress 5s .5s linear forwards;
-    animation-delay: 20s;
+    animation: progress 3s .5s linear forwards;
+    animation-delay: 30s;
     z-index: 300;
 }
 

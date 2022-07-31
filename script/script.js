@@ -7,3 +7,7 @@ $(".navigation-item").click(function(){
     $(".hamburger").toggleClass("active")
     $(".navigation-menu").toggleClass("active");
 })
+
+function alertSoon(){
+    alert("Wkrótcę...");
+}
