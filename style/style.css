@@ -635,6 +635,14 @@ margin-right: 0;
     /* margin-bottom: 30px; */
 }
 
+.cookies-info-on{
+    color: crimson;
+    transition: .5s all;
+}
+.cookies-info-on:hover{
+    color: #98c3e8;
+    text-decoration: underline;
+}
 
 /* =========================== footer  =========================== */
 

@@ -11,3 +11,7 @@ $(".navigation-item").click(function(){
 function alertSoon(){
     alert("Wkrótcę...");
 }
+
+$(".cookies-info-on").click(function(){
+    $("#CookiebotWidget").toggleClass("CookiebotWidget-open")
+})
