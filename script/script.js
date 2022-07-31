@@ -12,7 +12,11 @@ function alertSoon(){
     alert("Wkrótcę...");
 }
 
+const cookies = document.querySelector('.CybotMultilevel.CybotCloseButtonEnabled.CybotCookiebotDialogActive');
+
 $(".cookies-info-on").click(function(){
     $("#CookiebotWidget").toggleClass("CookiebotWidget-open")
-    $("#CookiebotWidget-widgetContent").toggleClass("active")
+    $(".CybotMultilevel .CybotCloseButtonEnabled").toggleClass("CybotMultilevel CybotCloseButtonEnabled CybotCookiebotDialogActive")
+    cookies.style.opacity = '1';
+    cookies.style.display = 'flex';
 })
