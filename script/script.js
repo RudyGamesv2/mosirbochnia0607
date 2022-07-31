@@ -14,4 +14,5 @@ function alertSoon(){
 
 $(".cookies-info-on").click(function(){
     $("#CookiebotWidget").toggleClass("CookiebotWidget-open")
+    $("#CookiebotWidget-widgetContent").toggleClass(".active")
 })

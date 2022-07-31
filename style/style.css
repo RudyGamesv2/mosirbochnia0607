@@ -25,6 +25,17 @@ a{
     color: #fff;
 }
 
+/* cookies edit */
+#CookiebotWidget-widgetContent{
+    max-width: 1000px !important;
+    max-height: 1000px !important;
+    display: none !important;
+}
+#CookiebotWidget-widgetContent.active{
+    display: flex !important;
+}
+
+
 /* =========================== notification =========================== */
 
 .notification{
