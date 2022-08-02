@@ -49,8 +49,7 @@ a{
     left: 0px;
     bottom: 0px;
     right: 0px;
-    font-size: 12px;
-
+    font-size: 12px;;
 }
 .notification a{
     color: crimson;
@@ -79,7 +78,7 @@ a{
     position: fixed;
     text-align: center;
     margin: auto;
-    width: 50vw;
+    width: 25vw;
     height: 90px;
     padding: 20px;
     border-radius: 4px;
@@ -404,6 +403,8 @@ header{
     margin-top: 20px;
     font-size: 10px;
 }
+
+
 
 /* == animation == */
 
@@ -815,7 +816,7 @@ footer .container{
         opacity: 1;
         transform: translateY(-30px);
     }
-
+    
 }
 
 @keyframes progress{
