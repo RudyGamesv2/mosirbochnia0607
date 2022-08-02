@@ -78,7 +78,7 @@ a{
     position: fixed;
     text-align: center;
     margin: auto;
-    width: 25vw;
+    width: 50vw;
     height: 90px;
     padding: 20px;
     border-radius: 4px;
@@ -90,7 +90,7 @@ a{
     visibility: hidden;
 
     animation: fade 4s linear forwards;
-    animation-delay: 30s;
+    animation-delay: 40s;
     z-index: 300;
     left: 0px;
     bottom: 50%;
